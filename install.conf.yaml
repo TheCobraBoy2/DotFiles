@@ -11,6 +11,7 @@
    ~/.config/ghostty: ghostty
    ~/.config/waybar: waybar
    ~/.config/fastfetch: fastfetch
+   ~/.config/nvim: nvim
 
 - create:
    - ~/downloads
