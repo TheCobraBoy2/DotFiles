@@ -9,6 +9,3 @@
 - waybar -> ~/.config/waybar
 - ghostty -> ~/.config/ghostty
 - These can also be checked in the ```install.conf.yaml``` file
-
-## IMPORTANT
-Don't forget to change your git config email and name otherwise mine will be used
