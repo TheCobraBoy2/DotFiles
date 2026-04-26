@@ -102,5 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias configtime="cd ~/.dotconfig"
+alias conftime="cd ~/.dotconfig"
 alias devtime="cd ~/Documents/coding"
+alias cls="clear"
+alias ls="lsd"
+alias l="lsd -l"

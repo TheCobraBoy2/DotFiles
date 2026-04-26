@@ -1,0 +1,21 @@
+- defaults:
+   link:
+     relink: true
+
+- clean: ['~']
+
+- link:
+   ~/.zshrc: zshrc
+   ~/.gitconfig: gitconfig
+   ~/.config/hypr: hypr
+   ~/.config/ghostty: ghostty
+   ~/.config/waybar: waybar
+   ~/.config/fastfetch: fastfetch
+
+- create:
+   - ~/downloads
+   - ~/.local/share/fastfetch
+
+- shell:
+   - [git submodule update --init --recursive, Installing submodules]
+   - [cp -r ~/.dotfiles/extra/fastfetch ~/.local/share/fastfetch]
