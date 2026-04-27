@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+if [[ -z "$1" ]]; then
+  echo "Usage: gitwork \"commit message\""
+  exit 1
+fi
+
+branch="${2:-$(git config --global init.defaultBranch)}"
+
+commit_msg="$1"
+git add .
+git commit -m "$commit_msg"
+git push origin "$branch"

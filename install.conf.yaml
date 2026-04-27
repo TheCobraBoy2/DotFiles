@@ -22,12 +22,14 @@
    ~/.config/swaync: swaync
    ~/.local/share/fastfetch: extra/fastfetch
    ~/.local/share/hypr: extra/hypr
+   ~/.local/bin: bin
 
 - create:
    - ~/downloads
    - ~/.local/share/fastfetch
    - ~/.local/share/hypr
    - ~/Pictures
+   - ~/.local/bin
 
 - shell:
    - [git submodule update --init --recursive, Installing submodules]

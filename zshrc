@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="$PATH:$HOME/.cargo/bin"
-export PATH="$PATH:$HOME/Documents/bin"
+export PATH="$PATH:$HOME/.local/bin"
 
 alias conftime="cd ~/.dotfiles"
 alias vim="nvim"
