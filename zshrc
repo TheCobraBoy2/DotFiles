@@ -105,7 +105,10 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/.cargo/bin"
 
 alias conftime="cd ~/.dotfiles"
+alias vim="nvim"
 alias devtime="cd ~/Documents/coding"
+alias gohome="cd ~"
 alias cls="clear"
 alias ls="lsd"
 alias l="lsd -l"
+alias i="yay -S"

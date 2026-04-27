@@ -12,11 +12,15 @@
    ~/.config/waybar: waybar
    ~/.config/fastfetch: fastfetch
    ~/.config/nvim: nvim
+   ~/.config/electron-flags.conf: electron-flags.conf
+   ~/.config/swaync: swaync
 
 - create:
    - ~/downloads
    - ~/.local/share/fastfetch
+   - ~/.local/share/hypr
 
 - shell:
    - [git submodule update --init --recursive, Installing submodules]
    - [cp -r ~/.dotfiles/extra/fastfetch ~/.local/share/fastfetch]
+   - [cp -r ~/.dotfiles/extra/hypr ~/.local/share/hypr]
