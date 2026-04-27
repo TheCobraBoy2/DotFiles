@@ -27,6 +27,7 @@
    - ~/downloads
    - ~/.local/share/fastfetch
    - ~/.local/share/hypr
+   - ~/Pictures
 
 - shell:
    - [git submodule update --init --recursive, Installing submodules]
