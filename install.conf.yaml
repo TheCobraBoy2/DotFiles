@@ -4,6 +4,12 @@
 
 - clean: ['~']
 
+- clean:
+   ~/.config:
+      recursive: true
+   ~/.local/share:
+      recursive: true
+
 - link:
    ~/.zshrc: zshrc
    ~/.gitconfig: gitconfig
@@ -14,6 +20,8 @@
    ~/.config/nvim: nvim
    ~/.config/electron-flags.conf: electron-flags.conf
    ~/.config/swaync: swaync
+   ~/.local/share/fastfetch: extra/fastfetch
+   ~/.local/share/hypr: extra/hypr
 
 - create:
    - ~/downloads
@@ -22,5 +30,4 @@
 
 - shell:
    - [git submodule update --init --recursive, Installing submodules]
-   - [cp -r ~/.dotfiles/extra/fastfetch ~/.local/share/fastfetch]
-   - [cp -r ~/.dotfiles/extra/hypr ~/.local/share/hypr]
+
