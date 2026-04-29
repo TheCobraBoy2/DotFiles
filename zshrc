@@ -104,11 +104,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:$HOME/.local/bin"
+export ELECTRON_OZONE_PLATFORM_HIT=wayland
 
 alias conftime="cd ~/.dotfiles"
 alias vim="nvim"
 alias devtime="cd ~/Documents/coding"
 alias gohome="cd ~"
+alias robotime="frccode ~/Documents/coding/2027FRC"
 alias cls="clear"
 alias ls="lsd"
 alias l="lsd -l"
